@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding-top: 5vh;
+  background: #f8f9fa;
+}
+
+.form-heading {
+    font-family: 'Montserrat', sans-serif; /* Change the font */
+    font-size: 2.5rem; /* Adjust the font size */
+    color: #007bff;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1); /* Increase the shadow for depth */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 1.5px; /* Adjust the space between letters */
+  }
+
+.signup-form {
+  width: 100%;
+  max-width: 350px;
+  padding: 15px;
+  padding-top: 10vh;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.signup-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.signup-form .btn {
+  width: 100%;
+}
